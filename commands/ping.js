@@ -29,14 +29,15 @@ async function pingCommand(sock, chatId, message) {
         const uptimeFormatted = formatTime(uptimeInSeconds);
 
         const botInfo = `
-╔══ *🤖WALLYJAYTECH-MD🤖* ════╗
-║
-║  *🚀 Ping: ${ping} ms*
-║  *⏱️ Uptime: ${uptimeFormatted}*
-║  *🔖 Version: ${settings.version}*
-║
-║   *Copyright wallyjaytech 2025*
-╚════════════════════╝`.trim();
+┏━━━━━━━━━━━━━━━━━━
+┇🐼𝘾𝙔𝘽𝙀𝙍 𝙋𝘼𝙉𝘿𝘼 𝙈𝘿 𝙑.10🐼
+┣━━━━━━━━━━━━━━━━━━
+┇  *🚀 Ping: ${ping} ms*
+┇  *⏱️ Uptime: ${uptimeFormatted}*
+┇  *🔖 Version: ${settings.version}*
+┣━━━━━━━━━━━━━━━━━━
+┇🐼𝘾𝙔𝘽𝙀𝙍 𝙋𝘼𝙉𝘿𝘼 𝙈𝘿 𝙑.10 🐼
+┗━━━━━━━━━━━━━━━━━━`.trim();
 
         // Reply to the original message with the bot info
         await sock.sendMessage(chatId, { text: botInfo},{ quoted: message });
