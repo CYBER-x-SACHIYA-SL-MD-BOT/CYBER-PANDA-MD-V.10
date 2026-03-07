@@ -4,7 +4,7 @@ async function weatherCommand(sock, chatId, message, city) {
 try {
 if (!city) {
 return await sock.sendMessage(chatId, {
-text: `🌤️ *Weather Command*\n\n❌ *Please specify a city!*\n\n*Usage:* .weather <city>\n*Examples:*\n.weather Lagos\n.weather London\n.weather New York\n\n_Powered by WALLYJAYTECH-MD_`
+text: `🌤️ *Weather Command*\n\n❌ *Please specify a city!*\n\n*Usage:* .weather <city>\n*Examples:*\n.weather Lagos\n.weather London\n.weather New York\n\n🐼 𝘾𝙔𝘽𝙀𝙍 𝙋𝘼𝙉𝘿𝘼 𝙈𝘿 𝙑.10 🐼`
 }, { quoted: message });
 }
 
@@ -19,16 +19,18 @@ if (!weatherData) {
 throw new Error('No weather data available');
 }
 
-const weatherMessage = `🌤️ *WEATHER REPORT*
-
-📍 *Location:* ${weatherData.city}
-🌡️ *Temperature:* ${weatherData.temp}°C
-💧 *Humidity:* ${weatherData.humidity}%
-💨 *Wind:* ${weatherData.wind} km/h
-☁️ *Condition:* ${weatherData.description}
-🌅 *Time:* ${new Date().toLocaleTimeString()}
-
-_Powered by WALLYJAYTECH-MD_`;
+const weatherMessage = `
+┏━━━━━━━━━━━━━━
+┇🌤️ *WEATHER REPORT*
+┣━━━━━━━━━━━━━━
+┇📍 *Location:* ${weatherData.city}
+┇🌡️ *Temperature:* ${weatherData.temp}°C
+┇💧 *Humidity:* ${weatherData.humidity}%
+┇💨 *Wind:* ${weatherData.wind} km/h
+┇☁️ *Condition:* ${weatherData.description}
+┇🌅 *Time:* ${new Date().toLocaleTimeString()}
+┗━━━━━━━━━━━━━━
+🐼 𝘾𝙔𝘽𝙀𝙍 𝙋𝘼𝙉𝘿𝘼 𝙈𝘿 𝙑.10 🐼`;
 
 await sock.sendMessage(chatId, {
 text: weatherMessage
@@ -37,7 +39,7 @@ text: weatherMessage
 } catch (error) {
 console.error('Weather Error:', error.message);
 await sock.sendMessage(chatId, {
-text: `❌ *Weather service temporary unavailable*\n\n🔍 *You searched:* "${city}"\n\n💡 *Working examples:*\n.weather lagos\n.weather london\n.weather tokyo\n\n_Powered by WALLYJAYTECH-MD_`
+text: `❌ *Weather service temporary unavailable*\n\n🔍 *You searched:* "${city}"\n\n💡 *Working examples:*\n.weather lagos\n.weather london\n.weather tokyo\n\🐼 𝘾𝙔𝘽𝙀𝙍 𝙋𝘼𝙉𝘿𝘼 𝙈𝘿 𝙑.10 🐼`
 }, { quoted: message });
 }
 }
