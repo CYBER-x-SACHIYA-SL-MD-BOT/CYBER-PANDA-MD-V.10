@@ -266,7 +266,7 @@ async function handleMessageRevocation(sock, revocationMessage) {
             recoveryText += `\n💬 *Message:*\n${original.content}\n`;
         }
 
-        recoveryText += `\n└──═━┈ *WALLYJAYTECH-MD* ┈━═──┘`;
+        recoveryText += `\n└──═━┈ *🐼 𝘾𝙔𝘽𝙀𝙍 𝙋𝘼𝙉𝘿𝘼 𝙈𝘿 𝙑.10 🐼* ┈━═──┘`;
 
         // Send recovery message
         await sock.sendMessage(targetChat, {
@@ -369,7 +369,7 @@ async function handleAntideleteCommand(sock, chatId, message, args) {
                 `• .antidelete private chat\n` +
                 `• .antidelete group chat\n` +
                 `• .antidelete group dm\n\n` +
-                `└──═━┈ *WALLYJAYTECH-MD* ┈━═──┘`;
+                `└──═━┈ *🐼 𝘾𝙔𝘽𝙀𝙍 𝙋𝘼𝙉𝘿𝘼 𝙈𝘿 𝙑.10 🐼* ┈━═──┘`;
 
             await sock.sendMessage(chatId, { text }, { quoted: message });
             return;
