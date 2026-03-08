@@ -537,8 +537,9 @@ async function helpCommand(sock, chatId, message) {
 👋 *Hello @${userName}! ${greeting.message}*
 
 *${greeting.greeting}! Here's your menu:*
-
-╔ 🐼 𝘾𝙔𝘽𝙀𝙍 𝙋𝘼𝙉𝘿𝘼 𝙈𝘿 𝙑.10 🐼
+╔══════════════════
+╠ 🐼 𝘾𝙔𝘽𝙀𝙍 𝙋𝘼𝙉𝘿𝘼 𝙈𝘿 𝙑.10 🐼
+╠═════════════════
 ║
 ║   *👤 User: [ @${userName} ]*
 ║   *🤖 BotName: [ ${settings.botName || 'CYBER-PANDA-MD-V.10'} ]*  
@@ -562,11 +563,9 @@ ${userUsageInfo}
 ${platformStatsText}
 ║   *📡 Tracking: Local Storage ✅*
 ║
-╚═══════════════════╝
-
-*⬇️ ALL COMMANDS ⬇️*
-
-╔═══════════════════╗
+╚═════════════════
+🐼 𝘾𝙔𝘽𝙀𝙍 𝙋𝘼𝙉𝘿𝘼 𝙈𝘿 𝙑.10 🐼
+╔═════════════════
 ║
 ║  *🔒OWNER CMDS🔒*
 ║
@@ -613,9 +612,9 @@ ${platformStatsText}
 ║ *🔺${prefix}setmention <reply to msg>*
 ║ *🔺${prefix}mention <on/off>*
 ║
-╚═══════════════════╝
+╚═════════════════
 
-╔═══════════════════╗
+╔═════════════════
 ║
 ║ *👨‍👩‍👧‍👦GROUP CMDS👨‍👩‍👧‍👦*
 ║
@@ -650,9 +649,9 @@ ${platformStatsText}
 ║ *🔹${prefix}setgname <new name>*
 ║ *🔹${prefix}setgpp (reply to image)*
 ║
-╚═══════════════════╝
+╚═════════════════
 
-╔═══════════════════╗
+╔═════════════════
 ║
 ║ *🎨STICKER CMDS🎨*
 ║
@@ -669,17 +668,17 @@ ${platformStatsText}
 ║ *🔻${prefix}igs <insta link>*
 ║ *🔻${prefix}igsc <insta link>*
 ║
-╚═══════════════════╝
+╚═════════════════
 
-╔═══════════════════╗
+╔═════════════════
 ║
 ║ *📩WHATSAPP CMDS📩*
 ║
 ║ *🟤${prefix}clear*
 ║
-╚═══════════════════╝
+╚═════════════════
 
-╔═══════════════════╗
+╔═════════════════
 ║
 ║  *🖼️PIES CMDS🖼️*
 ║
@@ -690,9 +689,9 @@ ${platformStatsText}
 ║ *▫️${prefix}korea*
 ║ *▫️${prefix}hijab*
 ║
-╚═══════════════════╝
+╚═════════════════
 
-╔═══════════════════╗
+╔═════════════════
 ║
 ║  *🎮GAME CMDS🎮*
 ║
@@ -727,9 +726,9 @@ ${platformStatsText}
 ║ *◾️${prefix}resetchips <pass> <user> <amount>*
 ║ *◾️${prefix}transactions <pass>*
 ║
-╚═══════════════════╝
+╚═════════════════
 
-╔═══════════════════╗
+╔═════════════════
 ║
 ║   *🧠AI CMDS🧠*
 ║
@@ -739,9 +738,9 @@ ${platformStatsText}
 ║ *♦️${prefix}flux <prompt>*
 ║ *♦️${prefix}sora <prompt>*
 ║
-╚═══════════════════╝
+╚═════════════════
 
-╔═══════════════════╗
+╔═════════════════
 ║
 ║  *😁FUN CMDS😁*
 ║
@@ -755,9 +754,9 @@ ${platformStatsText}
 ║ *🟢${prefix}wasted @user*
 ║ *🟢${prefix}simp @user*
 ║
-╚═══════════════════╝
+╚═════════════════
 
-╔═══════════════════╗
+╔═════════════════
 ║
 ║ *🔤EPHOTO CMDS🔤*
 ║
@@ -780,9 +779,9 @@ ${platformStatsText}
 ║ *🔴${prefix}glitch <text>*
 ║ *🔴${prefix}fire <text>*
 ║
-╚═══════════════════╝
+╚═════════════════
 
-╔═══════════════════╗
+╔═════════════════
 ║
 ║ *📥DOWNLOAD CMDS📥*
 ║
@@ -795,9 +794,9 @@ ${platformStatsText}
 ║ *🟠${prefix}video <song name>*
 ║ *🟠${prefix}ytmp4 <Link>*
 ║
-╚═══════════════════╝
+╚═════════════════
 
-╔═══════════════════╗
+╔═════════════════
 ║
 ║ *🧩MISC CMDS🧩*
 ║
@@ -820,9 +819,9 @@ ${platformStatsText}
 ║ *🟡${prefix}passed*
 ║ *🟡${prefix}triggered*
 ║
-╚═══════════════════╝
+╚═════════════════
 
-╔═══════════════════╗
+╔═════════════════
 ║
 ║  *🦹‍♀️ANIME CMDS🦹‍♀️*
 ║
@@ -835,9 +834,9 @@ ${platformStatsText}
 ║ *🟣${prefix}wink*
 ║ *🟣${prefix}facepalm*
 ║
-╚═══════════════════╝
+╚═════════════════
 
-╔═══════════════════╗
+╔═════════════════
 ║                   
 ║ *💻GITHUB CMDS💻*
 ║
@@ -847,34 +846,29 @@ ${platformStatsText}
 ║ *🔵${prefix}script*
 ║ *🔵${prefix}repo*
 ║
-╚═══════════════════╝
+╚═════════════════
 
-╔═══════════════════╗
+╔═════════════════
 ║                        
 ║ *🌐GENERAL CMDS🌐*   
-║                        
-║ *🔸${prefix}help or ${prefix}menu*      
-║ *🔸${prefix}ping*            
-║ *🔸${prefix}alive*              
-║ *🔸${prefix}tts <text>*          
-║ *🔸${prefix}owner*               
-║ *🔸${prefix}joke*                
-║ *🔸${prefix}quote*               
-║ *🔸${prefix}fact*                
-║ *🔸${prefix}weather <city>*      
-║ *🔸${prefix}news*                
-║ *🔸${prefix}attp <text>*         
-║ *🔸${prefix}lyrics <songtitle>*
-║ *🔸${prefix}8ball <question>*    
-║ *🔸${prefix}vv*                  
-║ *🔸${prefix}trt <text> <lang>*  
-║ *🔸${prefix}ss <link>*          
-║ *🔸${prefix}url*        
-║ *🔸${prefix}getjid* 
-║                       
-╚═══════════════════╝ 
+╠═════════════════                     
+║ *help 
+║ *menu*      
+║ * ping*            
+║ *alive*              
+║ *tts*     
+║ *owner*               
+║ *joke*                               
+║ *weather*
+║ *news*                
+║ *attp*    
+║ *trt*  
+║ *ss*        
+║ *url*        
+║ 🐼 𝘾𝙔𝘽𝙀𝙍 𝙋𝘼𝙉𝘿𝘼 𝙈𝘿 𝙑.10 🐼                    
+╚═════════════════
 
-    🟡 *Copyright wallyjaytech 2025* 🟡
+    🐼 𝘾𝙔𝘽𝙀𝙍 𝙋𝘼𝙉𝘿𝘼 𝙈𝘿 𝙑.10 🐼
 
 *📊 Total Commands: ${totalCommands}*
 
@@ -915,7 +909,7 @@ ${platformStatsText}
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363420618370733@newsletter',
-                        newsletterName: 'WALLYJAYTECH-MD BOTS',
+                        newsletterName: 'CYBER-PANDA-MD-V.10',
                         serverMessageId: -1
                     }
                 }
