@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: wallyjaytech-md
+    name: CYBER-PANDA-MD-V.10
     env: node
     plan: free
     buildCommand: npm install
