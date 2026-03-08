@@ -43,7 +43,7 @@ async function blockCommand(sock, chatId, message) {
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363420618370733@newsletter',
-                        newsletterName: 'WALLYJAYTECH-MD BOTS',
+                        newsletterName: 'CYBER-PANDA-MD-V.10',
                         serverMessageId: -1
                     }
                 }
@@ -60,7 +60,7 @@ async function blockCommand(sock, chatId, message) {
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363420618370733@newsletter',
-                        newsletterName: 'WALLYJAYTECH-MD BOTS',
+                        newsletterName: 'CYBER-PANDA-MD-V.10',
                         serverMessageId: -1
                     }
                 }
@@ -77,7 +77,7 @@ async function blockCommand(sock, chatId, message) {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363420618370733@newsletter',
-                    newsletterName: 'WALLYJAYTECH-MD BOTS',
+                    newsletterName: 'CYBER-PANDA-MD-V.10',
                     serverMessageId: -1
                 }
             }
@@ -92,7 +92,7 @@ async function blockCommand(sock, chatId, message) {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363420618370733@newsletter',
-                    newsletterName: 'WALLYJAYTECH-MD BOTS',
+                    newsletterName: 'CYBER-PANDA-MD-V.10',
                     serverMessageId: -1
                 }
             }
