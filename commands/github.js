@@ -14,8 +14,8 @@ async function githubCommand(sock, chatId, message) {
         const json = await res.json();
 
         // Create professional formatted message
-        let txt = `*🤖 WALLYJAYTECH-MD REPOSITORY* 🤖\n\n`;
-        txt += `📛 *Repository Name:* ${json.name || 'WALLYJAYTECH-MD'}\n`;
+        let txt = `🐼 𝘾𝙔𝘽𝙀𝙍 𝙋𝘼𝙉𝘿𝘼 𝙈𝘿 𝙑.10 🐼\n\n`;
+        txt += `📛 *Repository Name:* ${json.name || 'CYBER-PANDA-MD-V.10'}\n`;
         txt += `📖 *Description:* ${json.description || 'A Multi-Device WhatsApp User Bot'}\n`;
         txt += `👁️ *Watchers:* ${json.watchers_count?.toLocaleString() || '0'}\n`;
         txt += `💾 *Repository Size:* ${(json.size / 1024).toFixed(2)} MB\n`;
@@ -35,7 +35,7 @@ async function githubCommand(sock, chatId, message) {
         txt += `• 📂 [View Repository](${json.html_url})\n`;
         txt += `• 🐛 [Report Issues](${json.html_url}/issues)\n`;
         txt += `• ⭐ [Star Repository](${json.html_url})\n\n`;
-        txt += `*© WALLYJAYTECH 2025 | All Rights Reserved*`;
+        txt += `*© CYBER-PANDA-MD-V.10 2024 | All Rights Reserved*`;
 
         // Try to use local asset image, fallback to repository image
         let imageBuffer;
@@ -59,7 +59,7 @@ async function githubCommand(sock, chatId, message) {
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363420618370733@newsletter',
-                        newsletterName: 'WALLYJAYTECH-MD BOTS',
+                        newsletterName: 'CYBER-PANDA-MD-V.10',
                         serverMessageId: -1
                     }
                 }
@@ -72,7 +72,7 @@ async function githubCommand(sock, chatId, message) {
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363420618370733@newsletter',
-                        newsletterName: 'WALLYJAYTECH-MD BOTS',
+                        newsletterName: 'CYBER-PANDA-MD-V.10',
                         serverMessageId: -1
                     }
                 }
@@ -91,7 +91,7 @@ async function githubCommand(sock, chatId, message) {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363420618370733@newsletter',
-                    newsletterName: 'WALLYJAYTECH-MD BOTS',
+                    newsletterName: 'CYBER-PANDA-MD-V.10',
                     serverMessageId: -1
                 }
             }
@@ -102,7 +102,7 @@ async function githubCommand(sock, chatId, message) {
 // Function to get repository statistics (can be used for other purposes)
 async function getRepoStats() {
     try {
-        const res = await fetch('https://api.github.com/repos/wallyjaytechh/WALLYJAYTECH-MD');
+        const res = await fetch('https://github.com/CYBER-x-SACHIYA-SL-MD-BOT/CYBER-PANDA-MD-V.10');
         if (!res.ok) throw new Error('Failed to fetch repository data');
         return await res.json();
     } catch (error) {
