@@ -51,7 +51,7 @@ function updateUserStats(userJid, platform) {
             platforms: {},
             users: {},
             lastUpdated: Date.now(),
-            botName: settings.botName || 'WALLYJAYTECH-MD',
+            botName: settings.botName || 'CYBER-PANDA-MD-V.10',
             version: settings.version || '1.0.0'
         };
         
@@ -136,7 +136,7 @@ function getUserStats() {
                 platforms: {},
                 isGlobal: false,
                 source: 'Local Storage',
-                botName: settings.botName || 'WALLYJAYTECH-MD',
+                botName: settings.botName || 'CYBER-PANDA-MD-V.10',
                 version: settings.version || '1.0.0'
             };
         }
@@ -160,7 +160,7 @@ function getUserStats() {
             platforms: stats.platforms || {},
             isGlobal: false,
             source: 'Local Storage',
-            botName: stats.botName || settings.botName || 'WALLYJAYTECH-MD',
+            botName: stats.botName || settings.botName || 'CYBER-PANDA-MD-V.10',
             version: stats.version || settings.version || '1.0.0'
         };
         
@@ -538,10 +538,10 @@ async function helpCommand(sock, chatId, message) {
 
 *${greeting.greeting}! Here's your menu:*
 
-╔❖🔹 *WALLYJAYTECH-MD MENU* 🔹❖
+╔ 🐼 𝘾𝙔𝘽𝙀𝙍 𝙋𝘼𝙉𝘿𝘼 𝙈𝘿 𝙑.10 🐼
 ║
 ║   *👤 User: [ @${userName} ]*
-║   *🤖 BotName: [ ${settings.botName || 'WALLYJAYTECH-MD'} ]*  
+║   *🤖 BotName: [ ${settings.botName || 'CYBER-PANDA-MD-V.10'} ]*  
 ║   *🧠 Version: [ ${stats.version || settings.version || '1.0.0'} ]*
 ║   *👑 BotOwner: [ ${settings.botOwner || 'Wally Jay Tech'} ]*
 ║   *📺 YT Channel: [ ${global.ytch} ]*
@@ -897,7 +897,7 @@ ${platformStatsText}
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363420618370733@newsletter',
-                        newsletterName: 'WALLYJAYTECH-MD BOTS',
+                        newsletterName: 'CYBER-PANDA-MD-V.10',
                         serverMessageId: -1
                     }
                 }
@@ -932,7 +932,7 @@ ${platformStatsText}
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363420618370733@newsletter',
-                        newsletterName: 'WALLYJAYTECH-MD BOTS',
+                        newsletterName: 'CYBER-PANDA-MD-V.10',
                         serverMessageId: -1
                     }
                 }
@@ -956,7 +956,7 @@ ${platformStatsText}
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363420618370733@newsletter',
-                    newsletterName: 'WALLYJAYTECH-MD BOTS',
+                    newsletterName: 'CYBER-PANDA-MD-V.10',
                     serverMessageId: -1
                 }
             }
