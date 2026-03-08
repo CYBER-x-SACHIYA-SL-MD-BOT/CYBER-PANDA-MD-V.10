@@ -1,45 +1,8 @@
-//════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════//
-//                                                                                                                                                            //
-//                                                             𝐖𝐀𝐋𝐋𝐘𝐉𝐀𝐘𝐓𝐄𝐂𝐇-𝐌𝐃 𝐁𝐎𝐓                                                                         //
-//                                                                                                                                                            //
-//                                                                  𝐕 : 1.0.0                                                                                 //
-//                                                                                                                                                            //
-//                                                                                                                                                            //
-//                ██╗    ██╗ █████╗ ██╗     ██╗  ██╗   ██╗   ██╗ █████╗ ██╗   ██╗████████╗███████╗ ██████╗██╗  ██╗      ███╗   ███╗██████╗                    //
-//                ██║    ██║██╔══██╗██║     ██║  ╚██╗ ██╔╝   ██║██╔══██╗╚██╗ ██╔╝╚══██╔══╝██╔════╝██╔════╝██║  ██║      ████╗ ████║██╔══██╗                   //
-//                ██║ █╗ ██║███████║██║     ██║   ╚████╔╝    ██║███████║ ╚████╔╝    ██║   █████╗  ██║     ███████║█████╗██╔████╔██║██║  ██║                   //
-//                ██║███╗██║██╔══██║██║     ██║    ╚██╔╝██   ██║██╔══██║  ╚██╔╝     ██║   ██╔══╝  ██║     ██╔══██║╚════╝██║╚██╔╝██║██║  ██║                   //
-//                ╚███╔███╔╝██║  ██║███████╗███████╗██║ ╚█████╔╝██║  ██║   ██║      ██║   ███████╗╚██████╗██║  ██║      ██║ ╚═╝ ██║██████╔╝                   //
-//                 ╚══╝╚══╝ ╚═╝  ╚═╝╚══════╝╚══════╝╚═╝  ╚════╝ ╚═╝  ╚═╝   ╚═╝      ╚═╝   ╚══════╝ ╚═════╝╚═╝  ╚═╝      ╚═╝     ╚═╝╚═════╝                    //
-//                                                                                                                                                            //
-//                                                                 𝐂𝐎𝐏𝐘𝐑𝐈𝐆𝐇𝐓 2025                                                                            //
-//                                                                                                                                                            //
-//                                                                                                                                                            //
-//════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════//
-//* 
-//  * project_name : WALLYJAYTECH-MD
-//  * author : wallyjaytech
-//  * youtube : https://www.youtube.com/wallyjaytechy
-//  * description : WALLYJAYTECH-MD ,A Multi-Device whatsapp user bot.
-//*
-//*
-//re-upload? recode? copy code? give credit to wallyjaytech 2025:)
-//Instagram: wallyjaytech
-//Telegram: t.me/wallyjaytech
-//GitHub: wallyjaytechh
-//WhatsApp: +2348144317152
-//want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@wallyjaytechy
-//   * Created By Github: wallyjaytechh.
-//   * Credit To ally jay tech
-//   * © 2025 WALLYJAYTECH-MD.
-// ⛥┌┤
-// */
-
 const settings = {
-  packname: 'WALLYJAYTECH-MD',
-  author: '‎Wally Jay',
-  botName: "WALLYJAYTECH-MD",
-  botOwner: 'Wally Jay', 
+  packname: 'CYBER-PANDA-MD-V.10',
+  author: '‎Sachith',
+  botName: "CYBER-PANDA-MD-V.10",
+  botOwner: 'Sachith', 
   timezone: 'Africa/Lagos',
   prefix: '.',
   ownerNumber: '94783552317', //Set your number here without + symbol, just add country code & number without any space
@@ -47,9 +10,9 @@ const settings = {
   commandMode: "public",
   maxStoreMessages: 20, 
   storeWriteInterval: 10000,
-  description: "WALLYJAYTECH-MD ,A Multi-Device whatsapp user bot",
+  description: "CYBER-PANDA-MD-V.10 ,A Multi-Device whatsapp user bot",
   version: "1.0.0",
-  updateZipUrl: "https://github.com/wallyjaytechh/WALLYJAYTECH-MD/archive/refs/heads/main.zip",
+  updateZipUrl: "https://github.com/CYBER-x-SACHIYA-SL-MD-BOT/CYBER-PANDA-MD-V.10",
   removeBgApi: {
     enabled: true,
     apiKey: "dyrbNSNtMf1CE84he61DR7Wx", // Your remove.bg API key That's currently mine it expire anytime remember to put yours if expired just go to remove.bg site sign up and get your api key 
