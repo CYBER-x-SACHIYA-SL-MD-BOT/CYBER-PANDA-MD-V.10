@@ -542,7 +542,7 @@ async function helpCommand(sock, chatId, message) {
 ║
 ║   *👤 User: [ @${userName} ]*
 ║   *🤖 BotName: [ ${settings.botName || 'CYBER-PANDA-MD-V.10'} ]*  
-║   *🧠 Version: [ ${stats.version || settings.version || '1.0.0'} ]*
+║   *🧠 Version: [ ${stats.version || settings.version || '10'} ]*
 ║   *👑 BotOwner: [ ${settings.botOwner || 'Wally Jay Tech'} ]*
 ║   *📺 YT Channel: [ ${global.ytch} ]*
 ║   *📞 OwnerNumber: [ ${settings.ownerNumber} ]*
