@@ -1,26 +1,9 @@
  const settings = require("../settings");
 async function aliveCommand(sock, chatId, message) {
     try {
-        const message1 = `*🤖 WALLYJAYTECH-MD is Active! 🤖*\n\n` +
+        const message1 = `*🐼 CYBER-PANDA-MD-V.10 is Active! 🐼*\n\n` +
                        `*Version:* ${settings.version}\n` +
-                       `*Status:* Online\n\n` +
-                       `*🌟 MENUS:*\n` +
-                       `• General Menu\n` +
-                       `• Group Menu\n` +
-                       `• Owner Menu\n` +
-                       `• Sticker Menu\n` +
-                       `• Pies Menu\n` +
-                       `• Game Menu\n` +   
-                       `• Ai Menu\n` +  
-                       `• Fun Menu\n` +
-                       `• Ephoto Menu\n` +
-                       `• Download Menu\n` +
-                       `• Misc Menu\n` +
-                       `• Anime Menu\n` +
-                       `• Github Menu\n` +            
-                       `• And Many more!\n\n` +
-                       `Type *.menu* for full command list\n\n`+
-                       `*Copyright wallyjaytech 2025*`;
+                       `*Bot:* Online💘`;
 
         await sock.sendMessage(chatId, {
             text: message1,
@@ -29,7 +12,7 @@ async function aliveCommand(sock, chatId, message) {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363420618370733@newsletter',
-                    newsletterName: 'WALLYJAYTECH-MD BOTS',
+                    newsletterName: 'CYBER-PANDA-MD-V.10',
                     serverMessageId: -1
                 }
             }
