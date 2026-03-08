@@ -26,7 +26,7 @@ async function handleTranslateCommand(sock, chatId, message, match) {
             const args = match.trim().split(' ');
             if (args.length < 2) {
                 return sock.sendMessage(chatId, {
-                    text: `*🌍 WALLYJAYTECH-MD TRANSLATOR 🌍*\n\n*Usage:*\n\n*1. Reply to a message with: .translate <lang> or .trt <lang>*\n\n*2. Or type: .translate <text> <lang> or .trt <text> <lang>*\n\n*Example:*\n\n*.translate hello de*\n\n*.trt hello de*\n\n*.trt hello german*\n\n*.translate hello german*\n\n*Language codes:*\n\nfr - French\nes - Spanish\nde - German\nit - Italian\npt - Portuguese\nru - Russian\nja - Japanese\nko - Korean\nzh - Chinese\nar - Arabic\nhi - Hindi\n\n*Copyright wallyjaytech 2025*`,
+                    text: `*🌍 CYBER-PANDA-MD-V.10 TRANSLATOR 🌍*\n\n*Usage:*\n\n*1. Reply to a message with: .translate <lang> or .trt <lang>*\n\n*2. Or type: .translate <text> <lang> or .trt <text> <lang>*\n\n*Example:*\n\n*.translate hello de*\n\n*.trt hello de*\n\n*.trt hello german*\n\n*.translate hello german*\n\n*Language codes:*\n\nfr - French\nes - Spanish\nde - German\nit - Italian\npt - Portuguese\nru - Russian\nja - Japanese\nko - Korean\nzh - Chinese\nar - Arabic\nhi - Hindi\n\n*Copyright wallyjaytech 2025*`,
                     quoted: message
                 });
             }
