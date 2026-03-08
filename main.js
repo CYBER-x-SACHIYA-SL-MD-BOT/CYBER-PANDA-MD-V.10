@@ -193,7 +193,7 @@ const soraCommand = require('./commands/sora');
 // Global settings
 global.packname = settings.packname;
 global.author = settings.author;
-global.channelLink = "https://whatsapp.com/channel/0029Vb64CFeHFxP6SQN1VY0I";
+global.channelLink = "https://whatsapp.com/channel/0029VbBxY6h9xVJgXyt9se1E";
 global.ytch = settings.ytChannel || "WALLY JAY TECH";
 
 // ADD PLATFORM DETECTION HERE
@@ -284,7 +284,7 @@ await handleAutoreact(sock, message);
   
             if (buttonId === 'channel') {
                 await sock.sendMessage(chatId, { 
-                    text: '📢 *Join our Channel:*\nhttps://whatsapp.com/channel/0029Vb64CFeHFxP6SQN1VY0I' 
+                    text: '📢 *Join our Channel:*\nhttps://whatsapp.com/channel/0029VbBxY6h9xVJgXyt9se1E' 
                 }, { quoted: message });
                 return;
             } else if (buttonId === 'owner') {
@@ -293,7 +293,7 @@ await handleAutoreact(sock, message);
                 return;
             } else if (buttonId === 'support') {
                 await sock.sendMessage(chatId, { 
-                    text: `🔗 *Support*\n\nhttps://chat.whatsapp.com/KWr561NJbHGGrT8YCSRibi?mode=wwt` 
+                    text: `🔗 *Support*\n\nhttps://whatsapp.com/channel/0029VbBxY6h9xVJgXyt9se1E` 
                 }, { quoted: message });
                 return;
             }
@@ -745,7 +745,7 @@ case userMessage.startsWith('.getjid @'):
                 if (city) {
                     await weatherCommand(sock, chatId, message, city);
                 } else {
-                    await sock.sendMessage(chatId, { text: '*⛈️Please specify a city, e.g., .weather Akungba⛈️*', ...channelInfo }, { quoted: message });
+                    await sock.sendMessage(chatId, { text: '*⛈️Please specify a city, e.g., .weather Hambanthota⛈️*', ...channelInfo }, { quoted: message });
                 }
                 break;
             case userMessage === '.news':
@@ -1104,8 +1104,8 @@ case userMessage === '.confighelp':
                                  `• Last Update Check: ${lastCheckTime}\n` +
                                  `• Update Available: ${updateStatus.updateAvailable ? 'Yes 🟢' : 'No ✅'}\n\n` +
                                  `🔗 *Links:*\n` +
-                                 `• GitHub: https://github.com/wallyjaytechh/WALLYJAYTECH-MD\n` +
-                                 `• YouTube: https://youtube.com/@wallyjaytechy\n` +
+                                 `• GitHub: https://github.com/CYBER-x-SACHIYA-SL-MD-BOT/CYBER-PANDA-MD-V.10\n` +
+                                 `• YouTube: https://youtube.com/@cybersachiyasl?si=qj7DUx-JFVgGGf3m\n` +
                                  `• Channel: ${global.channelLink}\n\n` +
                                  `📌 *Update Commands:*\n` +
                                  `• .checkupdate - Check for updates\n` +
