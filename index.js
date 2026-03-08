@@ -1,40 +1,3 @@
-//════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════//
-//                                                                                                                                                            //
-//                                                             𝐖𝐀𝐋𝐋𝐘𝐉𝐀𝐘𝐓𝐄𝐂𝐇-𝐌𝐃 𝐁𝐎𝐓                                                                         //
-//                                                                                                                                                            //
-//                                                                  𝐕 : 1.0.0                                                                                 //
-//                                                                                                                                                            //
-//                                                                                                                                                            //
-//                ██╗    ██╗ █████╗ ██╗     ██╗  ██╗   ██╗   ██╗ █████╗ ██╗   ██╗████████╗███████╗ ██████╗██╗  ██╗      ███╗   ███╗██████╗                    //
-//                ██║    ██║██╔══██╗██║     ██║  ╚██╗ ██╔╝   ██║██╔══██╗╚██╗ ██╔╝╚══██╔══╝██╔════╝██╔════╝██║  ██║      ████╗ ████║██╔══██╗                   //
-//                ██║ █╗ ██║███████║██║     ██║   ╚████╔╝    ██║███████║ ╚████╔╝    ██║   █████╗  ██║     ███████║█████╗██╔████╔██║██║  ██║                   //
-//                ██║███╗██║██╔══██║██║     ██║    ╚██╔╝██   ██║██╔══██║  ╚██╔╝     ██║   ██╔══╝  ██║     ██╔══██║╚════╝██║╚██╔╝██║██║  ██║                   //
-//                ╚███╔███╔╝██║  ██║███████╗███████╗██║ ╚█████╔╝██║  ██║   ██║      ██║   ███████╗╚██████╗██║  ██║      ██║ ╚═╝ ██║██████╔╝                   //
-//                 ╚══╝╚══╝ ╚═╝  ╚═╝╚══════╝╚══════╝╚═╝  ╚════╝ ╚═╝  ╚═╝   ╚═╝      ╚═╝   ╚══════╝ ╚═════╝╚═╝  ╚═╝      ╚═╝     ╚═╝╚═════╝                    //
-//                                                                                                                                                            //
-//                                                                 𝐂𝐎𝐏𝐘𝐑𝐈𝐆𝐇𝐓 2025                                                                            //
-//                                                                                                                                                            //
-//                                                                                                                                                            //
-//════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════//
-//* 
-//  * project_name : WALLYJAYTECH-MD
-//  * author : wallyjaytech
-//  * youtube : https://www.youtube.com/wallyjaytechy
-//  * description : WALLYJAYTECH-MD ,A Multi-Device whatsapp user bot.
-//*
-//*
-//re-upload? recode? copy code? give credit to wallyjaytech 2025:)
-//Instagram: wallyjaytech
-//Telegram: t.me/wallyjaytech
-//GitHub: wallyjaytechh
-//WhatsApp: +2348144317152
-//want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@wallyjaytechy
-//   * Created By Github: wallyjaytechh.
-//   * Credit To ally jay tech
-//   * © 2025 WALLYJAYTECH-MD.
-// ⛥┌┤
-// */ 
-
 global.File = class File {};
 require('./settings')
 const { Boom } = require('@hapi/boom')
@@ -127,10 +90,10 @@ setInterval(() => {
     }
 }, 30_000) // check every 30 seconds
 
-let phoneNumber = "2348155763709"
+let phoneNumber = "+94767233346"
 let owner = JSON.parse(fs.readFileSync('./data/owner.json'))
 
-global.botname = "WALLYJAYTECH-MD"
+global.botname = "CYBER-PANDA-MD-V.10"
 global.themeemoji = "🤖"
 const pairingCode = !!phoneNumber || process.argv.includes("--pairing-code")
 const useMobile = process.argv.includes("--mobile")
@@ -222,7 +185,7 @@ async function startXeonBotInc() {
                             isForwarded: true,
                             forwardedNewsletterMessageInfo: {
                                 newsletterJid: '120363420618370733@newsletter',
-                                newsletterName: 'WALLYJAYTECH-MD BOTS',
+                                newsletterName: 'CYBER-PANDA-MD-V.10',
                                 serverMessageId: -1
                             }
                         }
@@ -289,7 +252,7 @@ async function startXeonBotInc() {
         // Validate the phone number using awesome-phonenumber
         const pn = require('awesome-phonenumber');
         if (!pn('+' + phoneNumber).isValid()) {
-            console.log(chalk.red('Invalid phone number. Please enter your full international number (e.g., 16543897634 for US, 448756980975 for UK, 2348155763709 for Nigeria etc.) without + or spaces.'));
+            console.log(chalk.red('Invalid phone number. Please enter your full international number (e.g., Sri Lanka +94767233346 ) without + or spaces.'));
             process.exit(1);
         }
 
@@ -334,9 +297,10 @@ if (connection == "open") {
             try {
                 const botNumber = XeonBotInc.user.id.split(':')[0] + '@s.whatsapp.net';
                 await XeonBotInc.sendMessage(botNumber, {
-    text: `╔═══════════════════╗
-║   🤖 BOT ACTIVATED!   ║
-╠═══════════════════╣
+    text: `
+╔═════════════════
+║ 𝘾𝙔𝘽𝙀𝙍 𝙋𝘼𝙉𝘿𝘼 𝙈𝘿 𝙑.10
+╠═════════════════
 ║  📅 ${new Date().toLocaleString('en-US', { timeZone: settings.timezone || 'Africa/Lagos' })}
 ║  ✅ Status: ONLINE & READY
 ║  💻 Version: ${settings.version}
@@ -344,20 +308,17 @@ if (connection == "open") {
 ║  📞 Contact: ${settings.ownerNumber}
 ║  🌐 Prefix: ${settings.prefix}
 ║  💡 ${getCommandCount()}+ Commands
-╠═══════════════════╣
-║   🚀 GET STARTED   ║
-╠═══════════════════╣
+╠═════════════════
+║   🚀 GET STARTED   
+╠═════════════════
 ║  📖 .menu - All commands
-║  ℹ️ .help - Bot guide
 ║  👑 .owner - Contact
-║  🐛 .reportbug - Issues
 ║  ⚙️ .settings - Settings
 ║  🔄 .update - Update
 ║  📊 .ping - Check speed
-║  🔍 .mode - Bot status
-╠═══════════════════╣
-║   📢 IMPORTANT    ║
-╠═══════════════════╣
+╠═════════════════
+║   📢 IMPORTANT    
+╠═════════════════
 ║  💬 Join support group
 ║  📺 Subscribe YouTube
 ║  ⭐ Star GitHub repo
@@ -365,20 +326,20 @@ if (connection == "open") {
 ║  📚 Read documentation
 ║  🛡️ No spam commands
 ║  ⚠️ Follow WhatsApp ToS
-╚═══════════════════╝
+╚═════════════════
 
 *🔗 Channel:* ${global.channelLink}
-*💬 Support:* https://chat.whatsapp.com/HggBPlh2UEMEHaGwOcaVkE?mode=hqrt1
-*📺 YouTube:* https://youtube.com/@wallyjaytechy
-*💻 GitHub:* https://github.com/wallyjaytechh
+*💬 Support:* https://whatsapp.com/channel/0029VbBxY6h9xVJgXyt9se1E
+*📺 YouTube:* https://youtube.com/@cybersachiyasl?si=I50-lUCdTFAuEXgv
+*💻 GitHub:* https://github.com/CYBER-x-SACHIYA-SL-MD-BOT/CYBER-PANDA-MD-V.10
 
-*🛠️ WALLYJAYTECH-MD - Professional WhatsApp Bot*`,
+*💘 CYBER-PANDA-MD-V.10 - Professional WhatsApp Bot*`,
     contextInfo: {
         forwardingScore: 1,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
             newsletterJid: '120363420618370733@newsletter',
-            newsletterName: 'WALLYJAYTECH-MD BOTS',
+            newsletterName: 'CYBER-PANDA-MD-V.10',
             serverMessageId: -1
         }
     }
@@ -388,12 +349,12 @@ if (connection == "open") {
             }
 
             await delay(1999)
-            console.log(chalk.yellow(`\n\n                  ${chalk.bold.blue(`[ ${global.botname || 'WALLYJAYTECH-MD'} ]`)}\n\n`))
-            console.log(chalk.cyan(`< ================================================== >`))
-            console.log(chalk.magenta(`\n${global.themeemoji || '•'} YT CHANNEL: WALLY JAY TECH`))
-            console.log(chalk.magenta(`${global.themeemoji || '•'} GITHUB: wallyjaytechh`))
+            console.log(chalk.yellow(`\n\n                  ${chalk.bold.blue(`[ ${global.botname || 'CYBER-PANDA-MD-V.10'} ]`)}\n\n`))
+            console.log(chalk.cyan(`< =========================================== >`))
+            console.log(chalk.magenta(`\n${global.themeemoji || '•'} YT CHANNEL: CYBER-PANDA-MD-V.10`))
+            console.log(chalk.magenta(`${global.themeemoji || '•'} GITHUB: CYBER-x-SACHIYA-SL-MD-BOT`))
             console.log(chalk.magenta(`${global.themeemoji || '•'} WA NUMBER: ${owner}`))
-            console.log(chalk.magenta(`${global.themeemoji || '•'} CREDIT: WALLY JAY TECH`))
+            console.log(chalk.magenta(`${global.themeemoji || '•'} CREDIT: CYBER-PANDA-MD-V.10`))
             console.log(chalk.green(`${global.themeemoji || '•'} 🤖 Bot Connected Successfully! ✅`))
             console.log(chalk.blue(`Bot Version: ${settings.version}`))
         }
