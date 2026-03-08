@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "🚀 Starting WALLYJAYTECH-MD Bot..."
+echo "🚀 Starting 🐼 𝘾𝙔𝘽𝙀𝙍 𝙋𝘼𝙉𝘿𝘼 𝙈𝘿 𝙑.10 🐼..."
 echo "📦 Installing dependencies..."
 npm install
 
