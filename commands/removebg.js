@@ -79,7 +79,7 @@ module.exports = {
             if (response.status === 200 && response.data && response.data.length > 5000) {
                 await sock.sendMessage(chatId, {
                     image: response.data,
-                    caption: '✨ *Background Removed Successfully!*\n\n✅ *Powered by Remove.BG Official API*\n🔄 *Processed by WALLYJAYTECH-MD*'
+                    caption: '✨ *Background Removed Successfully!*\n\n✅ *Powered by Remove.BG Official API*\n🔄 *Processed by CYBER-PANDA-MD-V.10*'
                 }, { quoted: message });
                 
                 console.log('✅ Remove.BG processing successful');
