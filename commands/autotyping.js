@@ -1,5 +1,5 @@
 /**
- * WALLYJAYTECH-MD - A WhatsApp Bot
+ * CYBER-PANDA-MD-V.10 - A WhatsApp Bot
  * Autotyping Command - Shows fake typing status for 60 seconds
  */
 
@@ -49,7 +49,7 @@ async function autotypingCommand(sock, chatId, message) {
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363420618370733@newsletter',
-                        newsletterName: 'WALLYJAYTECH-MD BOTS',
+                        newsletterName: 'CYBER-PANDA-MD-V.10',
                         serverMessageId: -1
                     }
                 }
@@ -101,7 +101,7 @@ async function autotypingCommand(sock, chatId, message) {
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363420618370733@newsletter',
-                        newsletterName: 'WALLYJAYTECH-MD BOTS',
+                        newsletterName: 'CYBER-PANDA-MD-V.10',
                         serverMessageId: -1
                     }
                 }
@@ -126,7 +126,7 @@ async function autotypingCommand(sock, chatId, message) {
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363420618370733@newsletter',
-                        newsletterName: 'WALLYJAYTECH-MD BOTS',
+                        newsletterName: 'CYBER-PANDA-MD-V.10',
                         serverMessageId: -1
                     }
                 }
@@ -143,7 +143,7 @@ async function autotypingCommand(sock, chatId, message) {
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363420618370733@newsletter',
-                        newsletterName: 'WALLYJAYTECH-MD BOTS',
+                        newsletterName: 'CYBER-PANDA-MD-V.10',
                         serverMessageId: -1
                     }
                 }
@@ -158,7 +158,7 @@ async function autotypingCommand(sock, chatId, message) {
                         isForwarded: true,
                         forwardedNewsletterMessageInfo: {
                             newsletterJid: '120363420618370733@newsletter',
-                            newsletterName: 'WALLYJAYTECH-MD BOTS',
+                            newsletterName: 'CYBER-PANDA-MD-V.10',
                             serverMessageId: -1
                         }
                     }
@@ -179,7 +179,7 @@ async function autotypingCommand(sock, chatId, message) {
                         isForwarded: true,
                         forwardedNewsletterMessageInfo: {
                             newsletterJid: '120363420618370733@newsletter',
-                            newsletterName: 'WALLYJAYTECH-MD BOTS',
+                            newsletterName: 'CYBER-PANDA-MD-V.10',
                             serverMessageId: -1
                         }
                     }
@@ -192,7 +192,7 @@ async function autotypingCommand(sock, chatId, message) {
                         isForwarded: true,
                         forwardedNewsletterMessageInfo: {
                             newsletterJid: '120363420618370733@newsletter',
-                            newsletterName: 'WALLYJAYTECH-MD BOTS',
+                            newsletterName: 'CYBER-PANDA-MD-V.10',
                             serverMessageId: -1
                         }
                     }
@@ -208,7 +208,7 @@ async function autotypingCommand(sock, chatId, message) {
                         isForwarded: true,
                         forwardedNewsletterMessageInfo: {
                             newsletterJid: '120363420618370733@newsletter',
-                            newsletterName: 'WALLYJAYTECH-MD BOTS',
+                            newsletterName: 'CYBER-PANDA-MD-V.10',
                             serverMessageId: -1
                         }
                     }
@@ -225,7 +225,7 @@ async function autotypingCommand(sock, chatId, message) {
                         isForwarded: true,
                         forwardedNewsletterMessageInfo: {
                             newsletterJid: '120363420618370733@newsletter',
-                            newsletterName: 'WALLYJAYTECH-MD BOTS',
+                            newsletterName: 'CYBER-PANDA-MD-V.10',
                             serverMessageId: -1
                         }
                     }
@@ -242,7 +242,7 @@ async function autotypingCommand(sock, chatId, message) {
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363420618370733@newsletter',
-                        newsletterName: 'WALLYJAYTECH-MD BOTS',
+                        newsletterName: 'CYBER-PANDA-MD-V.10',
                         serverMessageId: -1
                     }
                 }
@@ -263,7 +263,7 @@ async function autotypingCommand(sock, chatId, message) {
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363420618370733@newsletter',
-                        newsletterName: 'WALLYJAYTECH-MD BOTS',
+                        newsletterName: 'CYBER-PANDA-MD-V.10',
                         serverMessageId: -1
                     }
                 }
@@ -282,7 +282,7 @@ async function autotypingCommand(sock, chatId, message) {
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363420618370733@newsletter',
-                        newsletterName: 'WALLYJAYTECH-MD BOTS',
+                        newsletterName: 'CYBER-PANDA-MD-V.10',
                         serverMessageId: -1
                     }
                 }
@@ -298,7 +298,7 @@ async function autotypingCommand(sock, chatId, message) {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363420618370733@newsletter',
-                    newsletterName: 'WALLYJAYTECH-MD BOTS',
+                    newsletterName: 'CYBER-PANDA-MD-V.10',
                     serverMessageId: -1
                 }
             }
